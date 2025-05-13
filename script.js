@@ -668,18 +668,18 @@ async function consultarAPI() {
     
     switch (endpoint) {
         case 'teams':
-            url = `https://seu-proxy.glitch.me/api/competitions/${liga}/teams`;
+            url = `https://adriano25gomes.github.io/simulador-adriano/${liga}/teams`;
             break;
         case 'matches':
-            url = `https://seu-proxy.glitch.me/api/competitions/${liga}/matches?limit=10`;
+            url = `https://adriano25gomes.github.io/simulador-adriano/${liga}/matches?limit=10`;
             break;
         case 'standings':
-            url = `https://seu-proxy.glitch.me/api/competitions/${liga}/standings`;
+            url = `https://adriano25gomes.github.io/simulador-adriano/${liga}/standings`;
             break;
         case 'matches/head2head':
             // Para este caso, precisamos de dois times
             // Poderíamos melhorar depois com seleção de times
-            url = `https://seu-proxy.glitch.me/api/competitions/${liga}/matches`;
+            url = `https://adriano25gomes.github.io/simulador-adriano/${liga}/matches`;
             break;
     }
     
